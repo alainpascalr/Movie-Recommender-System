@@ -1,0 +1,260 @@
+/* James Reinlein 2015 */
+/* Middle of nav-bar */
+body {
+/*   padding-top: 0px; */
+/*   background-image: url("background2.jpg"); */
+  background-size: 95%;
+}
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+/*   margin: auto; */
+}
+
+/* Cropped images in thumbnails */
+.cropped-img {
+  position:relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50% ; /* % of width, defines aspect ratio*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;  
+}
+#loginbackground{
+  background-image: url('cat2.jpg');
+  background-size: auto 100%;
+}
+
+#indexnavbar{
+  border-bottom-color: #424242;
+  border-bottom-width: thin;
+  margin-top:12px;
+}
+/* Avg rating in Restaurant view */
+.rating {
+  line-height: 2;
+}
+.footer {
+  position: absolute;
+  bottom: 2%;
+  left: auto;
+  right: auto;
+  height: 60px;
+}
+.form-group-xs {
+  margin-bottom: 20px;
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 250px;
+  color: #FFFFFF;
+}
+.form-group-xxs {
+  margin-bottom: 15px;
+  width:20%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 235px;
+}
+.thumbnail {
+  height: 500px;
+  overflow:hidden
+}
+.input-group-modal {
+  width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	min-width: 250px;
+}
+
+/* Thumbnail */
+
+
+#thumbnailsection{
+  color: white;
+  margin-left: -30px;
+  margin-right: -40px;  
+}
+
+#indivthumbnail{  
+  margin-right: 20px;
+  width: 290px;
+  border-radius: 0px;
+}
+.thumbnail{
+  height: 410px;
+}
+#indivthumbnail2{
+  background-color: #263238;
+  border-color: #263238;
+}
+
+#btndefault{
+  margin-top: 10px;
+  border-radius: 0px;
+  background-color: #00C853;
+  border-color: #00C853;
+}
+
+#btnprimary{
+  margin-right: 15px;
+  border-radius: 0px;
+}
+
+/* Navbar */
+#navbar-right{
+    margin-right: -5px;
+    margin-left: -55px ;
+    margin-top: -45px;
+    background-color: #0288D1;
+}
+#navbar-right2{
+	margin-top: -45px;
+}
+
+#dropdownBtnLeft{
+margin-left: 10px;
+margin-top: 5px;
+background-color: #0288D1;
+border-radius: 0px;
+border-color: #0288D1;
+}
+
+
+#dropdownRight{
+float: right;
+margin-top: -43px;
+margin-right: 40px;
+border-radius: 0px;
+border-color: #0288D1
+}
+
+.dropdown ul li a:hover{
+  background: #0288D1;
+}
+
+/* Movie Details Page */
+#parent{
+    width:100%;
+    white-space:nowrap;
+    margin-bottom: 40px ;
+}
+#parent div{
+    display:inline-block;
+}
+
+#moviepicture{
+  float: left;
+  margin-left: 10px;
+  height: auto;
+  width: auto;
+  border: 10px solid #282828;
+}
+#moviedetails{  
+  background-color: #141414;
+  color: #FFFFFF;
+  margin-left: 115px;
+  min-height: 450px;
+  width: 900px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border: 10px solid #282828;
+}
+#movietitle{
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+#recommended{
+  border-top: 1.5px solid #282828;
+  width:100%;
+  height: 400px;
+
+}
+
+#recommended div{
+    display:inline-block;
+}
+
+#recommendedmoviesection{
+  padding: 10px 10px 10px 10px;
+  width: auto;
+  height: auto;
+  background-color: #141414;  
+  margin-bottom: 50px;
+  margin-left: 10px; 
+}
+
+/* User Profile */
+#userpicturesection{
+  width:100%;
+  white-space:nowrap;
+  margin-bottom: 40px ;
+}
+#userpicturesection div{
+  display:inline-block;
+}
+#userpicture{
+  float: left;
+  margin-left: 30px;
+  height: auto;
+  width: auto;
+}
+.img-circle{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#userdetails{
+  color: #FFFFFF;
+  margin-left: 115px;
+  min-height: 450px;
+  width: 900px;
+  margin-right: 10px;
+  padding-left: 10px;
+
+}
+
+/* Category */
+
+#categoryh2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+#accordion{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#categorypanel{
+  margin-top: 20px;
+  margin-bottom: 30px;  
+  border-color: #0288D1;
+  border-radius:0px;
+  background: #141414;
+}
+
+#headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven, #headingEight, #headingNine, #headingTen, #headingEleven, #headingTwelve, #headingThirteen, #headingFourteen, #headingFifteen, #headingSixteen, #headingSeventeen, #headingEighteen, #headingNineteen, #headingTwenty, #headingTwentyone {
+  background-color: #0288D1;
+}
+
+#categorytitle{
+  color: #FFFFFF;
+}
+
+#categorymoviesection{
+  padding: 20px 10px 10px 30px;
+  width: auto;
+  height: auto;
+  background-color: #141414;  
+  margin-bottom: 30px;
+  margin-left: 10px; 
+}
+
+#panelsection div{
+  display:inline-block;
+}
